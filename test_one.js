@@ -6,8 +6,8 @@
  *    Fill in host and port for Qlik engine
  */
 var config = {
-	host: "devanalyticsn2.iotm.mobi",
-	prefix: "/customt/",
+	host: "ec2-34-253-181-137.eu-west-1.compute.amazonaws.com",
+	prefix: "/",
 	port: "",
 	isSecure: true
 };
@@ -26,7 +26,7 @@ require( ["js/qlik"], function ( qlik ) {
 	} );
 
 	//open apps -- inserted here --
-	var app = qlik.openApp('9ed8418a-4a77-43be-91a7-4379a140a06f', config);
+	var app = qlik.openApp('1ba608c6-526c-4d10-af77-53d9235d1f9c', config);
 
 	//callbacks -- inserted here --
 	function testHyper2(reply, app){
