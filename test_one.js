@@ -9,7 +9,7 @@ var config = {
 	host: "ec2-108-129-112-55.eu-west-1.compute.amazonaws.com",
 	prefix: "/",
 	port: "",
-	isSecure: false
+	isSecure: true
 };
 
 require.config( {
